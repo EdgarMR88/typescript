@@ -15,9 +15,9 @@ typescript/
   modulo-2/        Modelado de dominio y genéricos
     src/
       domain/types/
-        university.ts  Interfaces Estudiante, Asignatura y unión discriminada EstadoMatricula
+        university.ts  Interfaces de dominio y unión discriminada EstadoMatricula
       services/
-        api-client.ts  Clase genérica ApiCliente<T> con RespuestaAPI<T>
+        api-client.ts  obtenerRecurso<T> y tipo genérico RespuestaAPI<T>
       index.ts
     docs/
       modelo-datos.md  Decisiones de arquitectura y diseño
